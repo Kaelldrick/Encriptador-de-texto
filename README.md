@@ -19,4 +19,5 @@ Este es un proyecto de encriptador de texto desarrollado utilizando HTML, CSS y 
 
 ## Autor
 
-[<img src="https://avatars.githubusercontent.com/u/134721380?v=4" width="260" height="260"><br><sub>Luis Fernando Rodriguez Sevilla</sub>](https://github.com/Kaelldrick)
+| [<img src="https://avatars.githubusercontent.com/u/134721380?v=4" width="260" height="260"><br><sub>Luis Fernando Rodriguez Sevilla</sub>](https://github.com/Kaelldrick) |
+| :---: |
