@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge | Encriptador de texto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <input id="button-theme" type="checkbox" class="interruptor">
+    </header>
+    <main class="contenedor">
+        <div class="contenedor__entrada">
+            <textarea id="entrada-textarea" placeholder="Ingrese texto aqui"></textarea>
+            <div class="entrada__aviso">
+                <p><img src="img/exclamacion.svg">minúsculas y sin acentos</p>
+                <p id="caracter-no-valido"></p>
+            </div>
+            <div class="contenedor__botones">
+                <button class="boton  boton--encriptar">Encriptar</button>
+                <button class="boton  boton--desencriptar">Desencriptar</button>
+            </div>
+        </div>
+        <div class="contenedor__salida">
+            <div id="salida__presentacion">
+                <img class="salida__imagen" src="img/muñeco-light.svg" alt="Muñeco">
+                <p>Ningún mensaje fue encontrado</p>
+                <p>Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+        </div>
+    </main>
+    <script src="js/app.js"></script>
+</body>
+</html>
