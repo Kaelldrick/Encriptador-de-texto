@@ -26,6 +26,7 @@ body {
     font-family: Inter, sans-serif;
     transition: all 0.5s;
     color: var(--color);
+    align-content: center;
 }
 
 header {
@@ -45,7 +46,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    width: 680px;
+    flex: 1;
 }
 
 .entrada__aviso {
@@ -229,28 +230,18 @@ textarea {
     left: 32px;
 }
 
-@media screen and (1366px < width <=1440px) {
-
-    body {
-        align-content: center;
-    }
-
-    .contenedor {
-        height: 944px;
-        margin: 0 auto;
-    }
-
-    .contenedor__salida {
-        align-content: center;
-    }
-}
-
 @media screen and (width <=1024px) {
     .contenedor {
+        margin: 0 auto;
         margin-top: 116px;
         flex-direction: column;
         height: auto;
         padding-left: 0;
+        width: 688px;
+    }
+
+    .contenedor__botones {
+        flex-direction: column;
     }
 
     .contenedor__entrada {
@@ -265,7 +256,6 @@ textarea {
         width: 100%;
         padding: 32px;
         margin-bottom: 0;
-        max-height: 595px;
     }
 
     .boton {
@@ -275,10 +265,18 @@ textarea {
     #salida__texto {
         height: 50vh;
     }
+
+    textarea {
+        height: 614px;
+    }
 }
 
 @media screen and (width <=768px) {
-    .contenedor__botones {
-        flex-direction: column;
+    .contenedor {
+        width: 100%;
+    }
+
+    textarea {
+        height: 400px;
     }
 }
